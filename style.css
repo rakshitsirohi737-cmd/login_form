@@ -1,0 +1,17 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+color:white;
+}
+h1{
+    text-align: center;
+}
+label{
+color:aqua
+}
+legend{
+    color:red
+}
+option{
+    color: rgb(217, 0, 255);
+}
