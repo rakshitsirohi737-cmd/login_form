@@ -6,7 +6,7 @@
 <body>
     <link rel="stylesheet" href="style.css".css">
 
-    <h2>USER Entry Form</h2>
+    <h1>USER Entry Form</h1>
     <p>Please fill out this form to register for login</p>
     <form action="/submit_school_data" method="POST">
         
@@ -18,7 +18,7 @@
             <input type="text" id="fname" name="fname" required><br><br>
 
             <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname" required><br><br>
+            <input type="text" id="lname" name="lname" ><br><br>
 
             <label for="dob">Date of Birth:</label><br>
             <input type="date" id="dob" name="dob" required><br><br>
@@ -39,8 +39,14 @@
         <!-- Academic Information Section -->
         <fieldset>
             <label for="student_id">enter your ID's (if applicable):</label><br>
-            <input type="number" id="student_id" name="student_id"><br><br>
+            <select>
+                <option>addhar-card</option>
+                <option>pan-card</option>
+            </select><br>
 
+            <input type="number" id="student_id" name="enter the no here"><br><br>
+            
+                
             <label>Your qualification:</label><br>
             <input type="checkbox" id="art" name="elective" value="art">
             <label for="student">student</label><br>
@@ -66,10 +72,10 @@
         <br>
 
         <!-- Submission Buttons that is used to submit the form -->
-        <a href="https://rakshitsirohi737-cmd.github.io/RAKSHIT-SIROHI/">
-        <input type="submit" value="Register Student">
-        </a>
-    
+       
+    <button onclick="window.location.href='https://rakshitsirohi737-cmd.github.io/RAKSHIT-SIROHI/">
+    register your account
+</button>
         <input type="reset" value="Clear Form">
 
     </form>
