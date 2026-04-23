@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>School Registration Form</title>
+    <title>LOGIN Form</title>
 </head>
 <body>
     <link rel="stylesheet" href="form_fill.css".css">
 
-    <h2>Student Data Entry Form</h2>
+    <h2>USER Entry Form</h2>
     <p>Please fill out this form to register for login</p>
     <form action="/submit_school_data" method="POST">
         
@@ -29,7 +29,7 @@
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
             <input type="radio" id="attack helicopter" name="gender" value="attack helicopter">
-            <label for="female">Attack helicopter</label><br><br>
+            <label for="female">other</label><br><br>
 
         </fieldset>
 
@@ -38,26 +38,16 @@
         <!-- give your academic information here -->
         <!-- Academic Information Section -->
         <fieldset>
-            <legend>Academic Information</legend>
-            
-            <label for="grade">Enrollment Grade:</label><br>
-            <select id="grade" name="grade">
-                <option value="9">Grade 9</option>
-                <option value="10">Grade 10</option>
-                <option value="11">Grade 11</option>
-                <option value="12">Grade 12</option>
-            </select><br><br>
-
             <label for="student_id">Previous Student ID (if applicable):</label><br>
             <input type="number" id="student_id" name="student_id"><br><br>
 
             <label>Elective Subjects:</label><br>
             <input type="checkbox" id="art" name="elective" value="art">
-            <label for="art">Fine Arts</label><br>
+            <label for="art">student</label><br>
             <input type="checkbox" id="cs" name="elective" value="cs">
-            <label for="cs">Computer Science</label><br>
+            <label for="cs">employe</label><br>
             <input type="checkbox" id="music" name="elective" value="music">
-            <label for="music">Music Theory</label><br><br>
+            <label for="music">other</label><br><br>
         </fieldset>
 
         <br>
@@ -66,7 +56,7 @@
         <fieldset>
             <legend>Contact Details</legend>
             
-            <label for="email">Parent/Guardian Email:</label><br>
+            <label for="email">Enter your email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
 
             <label for="address">Home Address:</label><br>
